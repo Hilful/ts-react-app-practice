@@ -9,16 +9,11 @@ const List = ({
 }) => {
   return (
     <div>
-      {items.map((item, index) => {
-        <li
-          key={index}
-          onClick={() => {
-            onClick(item);
-          }}
-        >
+      {items.map((item, index) => (
+        <li key={index} onClick={() => onClick(item)}>
           {item}
-        </li>;
-      })}
+        </li>
+      ))}
     </div>
   );
 };

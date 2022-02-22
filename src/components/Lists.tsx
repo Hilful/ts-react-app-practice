@@ -5,7 +5,7 @@ const Lists = () => {
   const items: string[] = ["Ashabul", "Elaph"];
 
   const onClick = (text: string): void => {
-    alert("text");
+    alert(text);
   };
   return (
     <div>
