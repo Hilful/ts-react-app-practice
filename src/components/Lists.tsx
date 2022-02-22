@@ -9,7 +9,7 @@ const Lists = () => {
   };
   return (
     <div>
-      <List items={items} onClick />
+      <List items={items} onClick={onClick} />
     </div>
   );
 };
